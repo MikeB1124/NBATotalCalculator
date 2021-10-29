@@ -146,7 +146,7 @@ function runWebsite(){
                     scoreOne.innerHTML = "(" + spread + ")";
                     scoreOne.style.fontSize = "22px";
                     scoreTwo.innerHTML = "O/U " + totalOdds;
-                     scoreTwo.style.fontSize = "25px";
+                     scoreTwo.style.fontSize = "22px";
                 }else if(games.events[i].status.period == 1 || games.events[i].status.period == 2){
                     totalProj.innerHTML = "";
                 }else if(games.events[i].status.period == 2 && games.events[i].status.displayClock == "0.0"){
@@ -323,7 +323,7 @@ function runWebsiteInterval(){
                     
                     if(scoreFirst.textContent !== "(" + spread + ")"){
                         scoreFirst.innerHTML = "(" + spread + ")";
-                        scoreFirst.style.fontSize = "22px";
+                        scoreFirst.style.fontSize = "23px";
                         scoreFirst.style.transition = "all 4s";
                         scoreFirst.style.color = "#FF0000";
                         
@@ -336,12 +336,12 @@ function runWebsiteInterval(){
 
                     if(scoreSecond.textContent !== "O/U " + totalOdds){
                         scoreSecond.innerHTML = "O/U " + totalOdds;
-                        scoreSecond.style.fontSize = "25px";
+                        scoreSecond.style.fontSize = "23px";
                         scoreSecond.style.transition = "all 2s";
                         scoreSecond.style.color = "#FF0000";
                     }else{
                         scoreSecond.innerHTML = "O/U " + totalOdds;
-                        scoreSecond.style.fontSize = "25px";
+                        scoreSecond.style.fontSize = "22px";
                         scoreSecond.style.transition = "all 4s";
                         scoreSecond.style.color = "#000000";
                     }
