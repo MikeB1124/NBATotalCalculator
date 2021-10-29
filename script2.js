@@ -167,7 +167,7 @@ function runWebsite(){
 function runWebsiteInterval(){
     let xhrTwo = new XMLHttpRequest();
 
-    xhrTwo.open('GET', 'http://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard', true);
+    xhrTwo.open('GET', 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard', true);
 
     xhrTwo.onload = function(){
         if(xhrTwo.status == 200){
