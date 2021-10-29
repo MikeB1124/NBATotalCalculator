@@ -10,7 +10,7 @@ function runWebsite(){
         if(xhr.status == 200){
             console.log('sucess');
             let games = JSON.parse(this.response);
-            console.log(games);
+            //console.log(games);
 
         
         
@@ -173,9 +173,9 @@ function runWebsiteInterval(){
 
     xhrTwo.onload = function(){
         if(xhrTwo.status == 200){
-            console.log('sucessTwo');
+            //console.log('sucessTwo');
             let games = JSON.parse(this.response);
-            console.log(games);
+            //console.log(games);
 
             
         
