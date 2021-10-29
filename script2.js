@@ -4,7 +4,7 @@
 function runWebsite(){
     let xhr = new XMLHttpRequest();
 
-    xhr.open('GET', 'http://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard', true);
+    xhr.open('GET', 'https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard', true);
 
     xhr.onload = function(){
         if(xhr.status == 200){
