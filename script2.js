@@ -159,12 +159,12 @@ function runWebsite(){
                     newDiv.appendChild(openMenu);
     
                     let openDiv = document.createElement('div');
-                    openDiv.classList = "openDiv openDiv" + i;
+                    openDiv.classList = "hidden openDiv openDiv" + i;
                     newDiv.appendChild(openDiv);
 
                     const last = document.createElement('h8');
                     last.id = "play" + i;
-                    last.classList = "play";
+                    last.classList = "hidden play";
                     last.innerHTML = games.events[i].competitions[0].situation.lastPlay.text;
                     openDiv.appendChild(last);
 
